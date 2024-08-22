@@ -42,5 +42,20 @@ console.log(b.copyWithin(1,3));
 console.log(c.copyWithin(1));
 
 
+// Array.entries method
+
+var colors = ["Red","Blue","Yellow","Black"];
+var show = colors.entries();
+for (i of show) {
+    console.log(i);
+}
+
+
+// Array.keys method
+
+var colors1 = ["Red","Blue","Yellow","Black"];
+var show = colors1.keys();
+console.log(...show);
+
 
 
