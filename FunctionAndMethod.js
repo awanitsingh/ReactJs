@@ -58,4 +58,8 @@ var show = colors1.keys();
 console.log(...show);
 
 
+// Map method
 
+var num3 = [1,4,9];
+var roots = num3.map(Math.sqrt);
+console.log("roots is : "+roots);
