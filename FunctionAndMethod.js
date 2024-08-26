@@ -70,6 +70,6 @@ console.log("roots is : "+roots);
 const num4 = [3,5,3,7,8];
 let first = num4.find(myFunction);
 function myFunction(value,index,array) {
-    return value - 5 ;
+    return value > 7 ;
 }
 console.log(first);
