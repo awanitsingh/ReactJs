@@ -63,3 +63,13 @@ console.log(...show);
 var num3 = [1,4,9];
 var roots = num3.map(Math.sqrt);
 console.log("roots is : "+roots);
+
+
+// Array.find
+
+const num4 = [3,5,3,7,8];
+let first = num4.find(myFunction);
+function myFunction(value,index,array) {
+    return value - 5 ;
+}
+console.log(first);
