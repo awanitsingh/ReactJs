@@ -73,3 +73,5 @@ function myFunction(value,index,array) {
     return value > 7 ;
 }
 console.log(first);
+
+
