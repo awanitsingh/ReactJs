@@ -40,6 +40,7 @@ import {Add,sub,Mul,Div} from './Calculator';
 import HelloWorld from './HelloWorld';
 import Card from './card';
 import Table from './Table';
+import Color from './Color';
 const root=ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -48,6 +49,7 @@ root.render(
     <HelloWorld/>
     <App/>
     <Table/>
+    <Color/>
     {
       <>
     <li>{Add(2,4)}</li>
