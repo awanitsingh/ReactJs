@@ -82,6 +82,9 @@ App.propTypes = {
   propString: PropTypes.string,
 }
 
+
+
+
 App.defaultProps = {
   propArray: [1,2,3,4,5],
   propBool: true,
@@ -90,4 +93,7 @@ App.defaultProps = {
   propString: "LPU",
 }
 export default App;
+
+
+
 
