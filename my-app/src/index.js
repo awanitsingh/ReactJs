@@ -41,23 +41,19 @@ import HelloWorld from './HelloWorld';
 import Card from './card';
 import Table from './Table';
 import Color from './Color';
+import Hooks from './Hooks';
 const root=ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Navigation/>
+    {/* <Navigation/>
     <Card/>
     <HelloWorld/>
     <App/>
     <Table/>
-    <Color/>
-    {
-      <>
-    <li>{Add(2,4)}</li>
-    <li>{sub(2,4)}</li>
-    <li>{Mul(2,4)}</li>
-    <li>{Div(2,4)}</li>
-      </>
+    <Color/> */
+    <Hooks/>
     }
+  
   </React.StrictMode>
 );
 reportWebVitals();
