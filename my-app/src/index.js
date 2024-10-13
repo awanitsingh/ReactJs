@@ -34,6 +34,8 @@ import Navigation from './Navigation';
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import './index.css';
+
 import reportWebVitals from './reportWebVitals';
 
 import {Add,sub,Mul,Div} from './Calculator';
@@ -42,19 +44,43 @@ import Card from './card';
 import Table from './Table';
 import Color from './Color';
 import Hooks from './Hooks';
+import Athletes from './Athletes';
+// import Counter from './useRef';
+import Stopwatch from './useRef';
+import Refheight from './useRef';
+import FocusInput from './useRef';
+import VideoPlayer from './useRef';
+import Counter from './Hooks';
+import TodoApp from './Hooks';
+
+
+//import UseCotext from './UseCotext';
 const root=ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Navigation/>
-    <Card/>
-    <HelloWorld/>
-    <App/>
-    <Table/>
-    <Color/> */
-    <Hooks/>
+    {
+    // <Navigation/>
+    //<Card/>
+    //<HelloWorld/>
+    //<App/>
+    //<Table/>
+    //<Color/> 
+    //<Hooks/> 
+    //<UseCotext/> 
+    //<Athletes/>
+    //<Counter/>
+    //<Stopwatch/>
+    //<Refheight/>
+    //<FocusInput/>
+    //<VideoPlayer/>
+   <Counter/>
+    
+   
+    
     }
   
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 reportWebVitals();
 
