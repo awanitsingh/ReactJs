@@ -33,7 +33,7 @@
 import Navigation from './Navigation';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+//import App from './App';
 import './index.css';
 
 import reportWebVitals from './reportWebVitals';
@@ -45,12 +45,12 @@ import Table from './Table';
 import Color from './Color';
 import Hooks from './Hooks';
 import Athletes from './Athletes';
-// import Counter from './useRef';
+import Counter from './useRef';
 import Stopwatch from './useRef';
 import Refheight from './useRef';
 import FocusInput from './useRef';
 import VideoPlayer from './useRef';
-import Counter from './Hooks';
+//import Counter from './Hooks';
 import TodoApp from './Hooks';
 import Addform from './Hooks';
 import FetchDataComponent from './Hooks';
@@ -58,6 +58,8 @@ import PostDataComponent from './Hooks';
 import PutDataComponent from './Hooks';
 import DeleteDataComponent from './Hooks';
 import Axios from './Hooks';
+import Details from './Hooks';
+import App from './Hooks';
 
 
 
@@ -86,8 +88,9 @@ root.render(
    //<PostDataComponent/>
    //<PutDataComponent/>
    //<DeleteDataComponent/>
-   <Axios/>
-    
+   //<Axios/>
+   //<Details/>
+    <App/>
    
     
     }
