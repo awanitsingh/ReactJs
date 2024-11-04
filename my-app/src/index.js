@@ -52,6 +52,13 @@ import FocusInput from './useRef';
 import VideoPlayer from './useRef';
 import Counter from './Hooks';
 import TodoApp from './Hooks';
+import Addform from './Hooks';
+import FetchDataComponent from './Hooks';
+import PostDataComponent from './Hooks';
+import PutDataComponent from './Hooks';
+import DeleteDataComponent from './Hooks';
+import Axios from './Hooks';
+
 
 
 //import UseCotext from './UseCotext';
@@ -73,7 +80,13 @@ root.render(
     //<Refheight/>
     //<FocusInput/>
     //<VideoPlayer/>
-   <Counter/>
+   //<Counter/>
+   //<Addform/>
+   //<FetchDataComponent/>
+   //<PostDataComponent/>
+   //<PutDataComponent/>
+   //<DeleteDataComponent/>
+   <Axios/>
     
    
     
@@ -98,3 +111,8 @@ reportWebVitals();
 //   document.getElementById("root")
 // )
  
+
+
+
+
+
